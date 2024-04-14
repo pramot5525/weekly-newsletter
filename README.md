@@ -2,6 +2,7 @@
 
 ```sh
 docker compose up --build
+```
 
 ## api base url
 http://localhost:9000
@@ -16,6 +17,7 @@ http://localhost:9000
 You can set the email address to subscribe
 ```sh
 make subscribe
+```
 - type EMAIL="your.email@example.com"
 
 ### Unsubscribe Email 
@@ -23,6 +25,7 @@ make subscribe
 You can set the email address to subscribe
 ```sh
 make unsubscribe
+```
 - type EMAIL="your.email@example.com"
 
 ### Broadcast Email to subscribe
@@ -30,3 +33,4 @@ make unsubscribe
 You can set the email address to subscribe
 ```sh
 make publish
+```
