@@ -1,16 +1,32 @@
-# Subscription Service CLI
+# Running project
 
-This CLI tool allows you to interact with the subscription service API.
+```sh
+docker compose up --build
+
+## api base url
+http://localhost:9000
 
 ## Prerequisites
-
 - Make sure you have `curl` installed on your system.
 
 ## Usage
 
-### Set Email (Optional)
+### Subscribe Email 
 
-You can set the email address to be used in the commands by setting the `EMAIL` environment variable:
-
+You can set the email address to subscribe
 ```sh
-export EMAIL="your.email@example.com"
+make subscribe
+- type EMAIL="your.email@example.com"
+
+### Unsubscribe Email 
+
+You can set the email address to subscribe
+```sh
+make unsubscribe
+- type EMAIL="your.email@example.com"
+
+### Broadcast Email to subscribe
+
+You can set the email address to subscribe
+```sh
+make publish
