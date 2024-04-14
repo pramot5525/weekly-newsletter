@@ -4,14 +4,14 @@
 docker compose up --build
 ```
 
-## api base url
+## API base url
 http://localhost:9000
+cli using ./makeflile
 
 ## Prerequisites
 - Make sure you have `curl` installed on your system.
 
 ## Usage
-
 ### Subscribe Email 
 
 You can set the email address to subscribe
